@@ -69,12 +69,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\baseScript.cs" />
+    <Compile Include="Assets\bodyScript.cs" />
     <Compile Include="Assets\lowerLegScript.cs" />
-    <Compile Include="Assets\pitScript.cs" />
-    <Compile Include="Assets\rBaseScript.cs" />
-    <Compile Include="Assets\rLowerLegScript.cs" />
-    <Compile Include="Assets\rPitScript.cs" />
-    <Compile Include="Assets\rUpperLegScript.cs" />
     <Compile Include="Assets\upperLegScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
